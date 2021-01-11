@@ -1,4 +1,3 @@
 FROM python
-RUN apt-get install python3
-CMD echo "Obraz 1"
-
+CMD echo "Obraz pierwszy"
+ENTRYPOINT echo "Obraz pierwszy"
