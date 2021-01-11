@@ -1,3 +1,3 @@
-FROM python
-CMD echo "Obraz pierwszy"
+FROM busybox:1.29
+CMD ["/bin/echo", "'Pierwszy obraz'"]
 
