@@ -1,6 +1,6 @@
-FROM centos:latest
-MAINTAINER NewstarCorporation
-RUN yum -y install httpd
-COPY index.html /var/www/html/
-CMD [“/usr/sbin/httpd”, “-D”, “FOREGROUND”]
-EXPOSE 80
+FROM python:3
+ADD skrypt.py /
+RUN pip install flask
+RUN pip install flask_restful
+EXPOSE 3333
+CMD [ "python", "./skrypt.py"]
