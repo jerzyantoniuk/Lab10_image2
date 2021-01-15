@@ -1,3 +1,3 @@
 while True:
-  print('Pierszy obraz!');
+  print('Drugi obraz!');
   
