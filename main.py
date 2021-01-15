@@ -1,4 +1,4 @@
 import time;
 while True:
   print('Pierszy obraz!');
-  time.sleep(100);
+  time.sleep(5);
