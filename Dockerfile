@@ -3,4 +3,4 @@ MAINTAINER Jerzy Antoniuk "jerzy.antoniuk@pollub.edu.pl"
 COPY . /app
 WORKDIR /app
 ENTRYPOINT ["python"]
-CMD ["app.py"]
+CMD ["main.py"]
