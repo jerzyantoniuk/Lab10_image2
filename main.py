@@ -1,4 +1,4 @@
 print('Pierszy obraz!')
-while True:
-  pass;
+# while True:
+#   pass;
 
